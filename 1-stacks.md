@@ -1,4 +1,5 @@
 ## yo put some stax info here
 yessir
 
-Return to [welcome page](0-welcome.md)
+[Welcome Page](0-welcome.md)
+[Outline](outline.md)
