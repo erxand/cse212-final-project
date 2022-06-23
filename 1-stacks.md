@@ -2,4 +2,4 @@
 yessir
 
 Return to
-[Welcome]{0-welcome.md}
+[Welcome](0-welcome.md)
