@@ -1,5 +1,5 @@
 # Python Data Structures Tutorials
-## I. Welcome
+## I. [Welcome](0-welcome.md)
 * Introduction
 * Topics
 ## II. [Stacks](1-stacks.md)
