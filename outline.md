@@ -2,18 +2,21 @@
 ## I. Welcome
 * Introduction
 * Topics
-## II. Data Structure 1
+## II. Stacks
 * Introduction
-* Deets on structure
+* Structure
+* Basic Functions
 * Example
 * Problem to Solve
-## III. Data Structure 2
+## III. Linked Lists
 * Introduction
-* Deets on structure
+* Structure
+* Basic Functions
 * Example
 * Problem to Solve
 ## IV. Trees
 * Introduction
-* Deets on trees
+* Structure
+* Basic Funcions
 * Example
 * Problem to Solve
