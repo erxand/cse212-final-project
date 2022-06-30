@@ -12,7 +12,7 @@ This is how our data structure works. If we want to look at the "bottom" datum w
 | push(_x_) | Puts _x_ on the "top" of the stack | my_stack.append(x)| O(1) |
 | pop() | Removes and returns the item from the "top" of the stack. | value = my_stack.pop() | O(1) |
 | size() | Return the size of the stack. | length = len(my_stack) | O(1) |
-| empty() | Returns true if the length of the stack is zero. | if len(my_stack) == 0: | O(1) |
+| empty() | Returns ```true``` if the length of the stack is zero. | if len(my_stack) == 0: | O(1) |
 
 
 ## Example
