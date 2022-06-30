@@ -18,13 +18,12 @@ Tutorial Structure:
 
 ## Introduction
 What kind of structure is a stack
+
 ## Structure
 How do stacks work
 
-
 ## Basic Functions
 What kind of structure to stacks have/need
-
 
 ## Example
 ```python
@@ -32,16 +31,10 @@ def tell_him():
     print("dingus put some actual code here")
 ```
 
-
 ## Problem to Solve
-
 [problem file](https://crouton.net/)
 
-
-
-
 ## Links
-
 [Welcome Page](0-welcome.md)
 
 [Outline](outline.md)
