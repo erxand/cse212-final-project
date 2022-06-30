@@ -7,6 +7,7 @@ Required content:
 * example of a solved problem
 * unfinished problem for the student
 
+Tutorial Structure:
 * Introduction
 * Structure
 * Basic Functions
