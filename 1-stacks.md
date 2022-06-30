@@ -1,5 +1,11 @@
 ## yo put some stax info here
-yessir
+
+Required content:
+* example python code
+* tables
+* diagrams
+* example of a solved problem
+* unfinished problem for the student
 
 * Introduction
 * Structure
