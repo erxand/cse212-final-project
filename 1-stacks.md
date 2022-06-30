@@ -18,8 +18,6 @@ Tutorial Structure:
 
 ## Introduction
 What kind of structure is a stack
-
-
 ## Structure
 How do stacks work
 
