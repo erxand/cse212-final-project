@@ -1,6 +1,6 @@
 # Stacks
 
-##Plan
+## Plan
 Required content:
 * example python code
 * tables
@@ -16,33 +16,33 @@ Tutorial Structure:
 * Problem to Solve
 
 
-##Introduction
+## Introduction
 What kind of structure is a stack
 
 
-##Structure
+## Structure
 How do stacks work
 
 
-##Basic Functions
+## Basic Functions
 What kind of structure to stacks have/need
 
 
-##Example
+## Example
 ```python
 def tell_him():
     print("dingus put some actual code here")
 ```
 
 
-##Problem to Solve
+## Problem to Solve
 
 [problem file](https://crouton.net/)
 
 
 
 
-##Links
+## Links
 
 [Welcome Page](0-welcome.md)
 
