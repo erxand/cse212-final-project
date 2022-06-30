@@ -7,7 +7,9 @@ To easily explain how a stack works we can use a deck of cards. Picture the card
 This is how our data structure works. If we want to look at the "bottom" datum we need to iterate through each datum in the data. The "bottom" datum is also the first added to the stack. If we want to add something to the middle of the stack we would have to pull data off one at a time until we get to the spot, put in the new datum, and then put everything else back on top in order.
 
 ## Basic Functions
-What kind of structure to stacks have/need
+| Stack Operation | Description | Python Code | O(?) |
+| --- | --- | --- | --- |
+| push(x) | Adds _x_ to the "top" of the stack | my_stack.append(_x_)| O(1) |
 
 ## Example
 ```python
