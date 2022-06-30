@@ -1,5 +1,5 @@
 # Stacks
-Stacks are one of the most basic types of data structures. In this tutortial they will be the easiest to learn and implement. If you understand how to look for a certain card in a deck of cards, then you can look for data in a stack.
+Stacks are one of the most basic types of data structures. In this tutortial they will be the easiest to learn and implement. If you understand how to look for a certain card in a deck of cards, then you can understand how to look for data in a stack.
 
 ## Structure
 To easily explain how a stack works we can use a deck of cards. Picture the cards stacked like normal on a table. In the real world you can pick up the stack of cards and take the bottom card, or you could pick up a portion of the deck and take a middle card. In our example, to go along with the data structure, we have really really fat fingers. We can't pick all the cards up off the table, we can't even grab half the deck. All we can do is slide the top card off and take that one. If we were to look at each card in the deck we'd have to take them off one at a time. We also can't put a card back in the middle, we're too uncoordinated. If we want to add a new card to the deck we have to just put it on top.
