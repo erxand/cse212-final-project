@@ -1,12 +1,13 @@
 def remove_not_quarters(stack):
-    temp_stack = []
-    for i in range(len(stack), 0, -1):
+    """ Pass in a list, treat it as a stack, remove every value that isn't a quarter. """
+    temp_stack = [] # Second stack to empty current one into
+    for _ in range(len(stack), 0, -1): # Iterate through each item, starting from the "top"
         coin = stack.pop()
-        if coin[0] == "Q":
+        if coin[0] == "Q": # If it's a quarter add it to the second stack
             temp_stack.append(coin)
-    stack = []
-    for i in range(len(temp_stack)):
-        stack.append(temp_stack.pop())
+    stack = [] # Reset original stack, second stack has all necessary data
+    for _ in range(len(temp_stack), 0, -1):# Iterate through each item, starting from the "top"
+        stack.append(temp_stack.pop()) # Add the second stack back to the first so it's not backwards
     return stack
 
 list_1 = [("Q", 2002), ("Q", 1997), ("P", 2015), ("Q", 2011), ("D", 1971), ("D", 2020), ("Q", 2013), ("Q", 1999), ("P", 2001)]
