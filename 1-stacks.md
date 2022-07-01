@@ -47,11 +47,15 @@ while not full:
 
 ## Problem: Coin Holder
 Please write a program to solve the following problem:
-We have a little coin holder, you put your coin in the top and it rolls down into the appropriate spot. The smaller spots come first so that every coin falls in the correct spot. However, sometimes the coin doesn't go where it's supposed to, especially the quarter slot because they're the biggest. We want to take out all non-quarters from the quarters spot. Unfortunately we can't just empty the whole thing at once, it's built in a way that we have to take them back out one at a time.
+We have a little coin holder, you put your coin in the top and it rolls down into the appropriate spot. The smaller spots come first, that way the bigger ones keep going until they hit their spot. This way every coin falls in the correct spot. However, sometimes the coin doesn't go where it's supposed to, the quarter spot is the worst because any of the other coins can fit in that spot. We want to take out all non-quarters from the quarters spot. Unfortunately we can't just empty the whole thing at once, it's built in a way that we have to take them back out one at a time.
 
-The quarters spot will be represented as a list of strings. Each string represents a coin, quarters being "Q", dimes "D", nickels "N" and pennies "P". 
+The quarters spot will be represented as a list of tuples. Each tuple represents a coin, quarters being ("Q", x), dimes ("D", x), nickels ("N", x) and pennies ("P", x), x representing the year the coin was minted. By including the year of the coin we can be assured that the coins are returned back in the proper order, characteristic of a stack. Your task is to iterate through the list and remove everything that isn't a quarter and then put it back in in the order you took it out.
 
-[Possible solution](https://crouton.net/), only view this once you have completed the problem on your own or feel you cannot progress any further.
+Here are some premade lists you can use to check your program:```python
+list_1 = [("Q", 2002), ("Q", 1997), ("P", 2015), ("Q", 2011), ("D", 1971), ("D", 2020), ("Q", 2013), ("Q", 1999), ("P", 2001)]
+```
+
+Possible solution [here](https://crouton.net/), only view this once you have completed the problem on your own or feel you cannot progress any further.
 
 ## Links
 [Welcome Page](0-welcome.md)
