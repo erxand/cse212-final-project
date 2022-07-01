@@ -16,6 +16,7 @@ This is how our data structure works. If we want to look at the "bottom" datum w
 
 
 ## Example: Stack of Pancakes
+In this example we can see Python's dynamic array being used as a stack, as Python doesn't have a perfect stack structure. In this code example we use three of the four basic functions listed above, can you figure out which one isn't used?
 ```python
 stack_o_pancakes = []
 counter = 0
