@@ -44,6 +44,7 @@ while not full:
         case _:
             print("C'mon you know that's not an option. What do you want to do?")
 ```
+If you want to run this exact program the file is [here](stacks_example.py), or just copy and paste this into your IDE.
 
 ## Problem: Coin Holder
 Please write a program to solve the following problem:
@@ -65,7 +66,7 @@ list_2 = [("Q", 2002), ("Q", 1997), ("Q", 2011), ("Q", 2013), ("Q", 1999)]
 list_3 = []
 ````
 
-Possible solution [here](https://crouton.net/), only view this once you have completed the problem on your own or feel you cannot progress any further.
+Possible solution [here](stacks_problem_solution.py), only view this once you have completed the problem on your own or feel you cannot progress any further.
 
 ## Links
 [Welcome Page](0-welcome.md)
