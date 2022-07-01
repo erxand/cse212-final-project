@@ -51,7 +51,8 @@ We have a little coin holder, you put your coin in the top and it rolls down int
 
 The quarters spot will be represented as a list of tuples. Each tuple represents a coin, quarters being ("Q", x), dimes ("D", x), nickels ("N", x) and pennies ("P", x), x representing the year the coin was minted. By including the year of the coin we can be assured that the coins are returned back in the proper order, characteristic of a stack. Your task is to iterate through the list and remove everything that isn't a quarter and then put it back in in the order you took it out.
 
-Here are some premade lists you can use to check your program: ```python
+Here are some premade lists you can use to check your program:
+```python
 list_1 = [("Q", 2002), ("Q", 1997), ("P", 2015), ("Q", 2011), ("D", 1971), ("D", 2020), ("Q", 2013), ("Q", 1999), ("P", 2001)]
 ```
 
