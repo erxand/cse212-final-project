@@ -54,7 +54,16 @@ The quarters spot will be represented as a list of tuples. Each tuple represents
 Here are some premade lists you can use to check your program:
 ```python
 list_1 = [("Q", 2002), ("Q", 1997), ("P", 2015), ("Q", 2011), ("D", 1971), ("D", 2020), ("Q", 2013), ("Q", 1999), ("P", 2001)]
+list_2 = [("Q", 2002), ("Q", 1997), ("Q", 2011), ("Q", 2013), ("Q", 1999)]
+list_3 = [("P", 2012), ("N", 1986), ("P", 2010), ("N", 2011), ("D", 1919), ("D", 2022), ("P", 2009), ("N", 1980), ("P", 2011)]
 ```
+
+Here is what the results should be for each list:
+```python
+list_1 = [("Q", 2002), ("Q", 1997), ("Q", 2011), ("Q", 2013), ("Q", 1999)]
+list_2 = [("Q", 2002), ("Q", 1997), ("Q", 2011), ("Q", 2013), ("Q", 1999)]
+list_3 = []
+````
 
 Possible solution [here](https://crouton.net/), only view this once you have completed the problem on your own or feel you cannot progress any further.
 
