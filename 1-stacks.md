@@ -65,7 +65,7 @@ list_2 = [("Q", 2002), ("Q", 1997), ("Q", 2011), ("Q", 2013), ("Q", 1999)]
 list_3 = []
 ````
 
-Possible solution [here](https://crouton.net/), only view this once you have completed the problem on your own or feel you cannot progress any further.
+Possible solution [here](stacks_problem_solution.py), only view this once you have completed the problem on your own or feel you cannot progress any further.
 
 ## Links
 [Welcome Page](0-welcome.md)
