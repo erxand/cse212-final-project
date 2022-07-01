@@ -44,7 +44,7 @@ while not full:
         case _:
             print("C'mon you know that's not an option. What do you want to do?")
 ```
-If you want to run this exact program the file is (here)[stacks_example.py], or just copy and paste this into your IDE.
+If you want to run this exact program the file is [here](stacks_example.py), or just copy and paste this into your IDE.
 
 ## Problem: Coin Holder
 Please write a program to solve the following problem:
