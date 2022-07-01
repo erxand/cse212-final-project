@@ -45,8 +45,13 @@ while not full:
             print("C'mon you know that's not an option. What do you want to do?")
 ```
 
-## Problem to Solve
-[problem file](https://crouton.net/)
+## Problem: Coin Holder
+Please write a program to solve the following problem:
+We have a little coin holder, you put your coin in the top and it rolls down into the appropriate spot. The smaller spots come first so that every coin falls in the correct spot. However, sometimes the coin doesn't go where it's supposed to, especially the quarter slot because they're the biggest. We want to take out all non-quarters from the quarters spot. Unfortunately we can't just empty the whole thing at once, it's built in a way that we have to take them back out one at a time.
+
+The quarters spot will be represented as a list of strings. Each string represents a coin, quarters being "Q", dimes "D", nickels "N" and pennies "P". 
+
+[Possible solution](https://crouton.net/), only view this once you have completed the problem on your own or feel you cannot progress any further.
 
 ## Links
 [Welcome Page](0-welcome.md)
