@@ -12,7 +12,7 @@ yessir
 | insert(i, x) | Adds _x_ after node _i_. | my_deque.insert(i, x) | O(n) |
 | remove_head() | Removes the head (the first item) | x = linked_list.popleft() | O(1) |
 | remove_tail() | Removes the tail (the last item) | x = linked_list.pop() | O(1) |
-| remove(i) | Removes node _i_. | del my_deque[i] | O(n) |
+| remove(i) | Removes node _i_. | del linked_list[i] | O(n) |
 | size() | Return the size of the linked list | length = len(linked_list) | O(1) |
 | empty() | Returns true if the length of the linked list is zero. | if len(linked_list) == 0: | O(1) |
 
