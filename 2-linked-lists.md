@@ -7,10 +7,14 @@ yessir
 ## Basic Functions
 | Stack Operation | Description | Python Code | O(?) |
 | --- | --- | --- | --- |
-| push(_x_) | Puts _x_ on the "top" of the stack | stack.append(x)| O(1) |
-| pop() | Removes and returns the item from the "top" of the stack. | value = stack.pop() | O(1) |
-| size() | Return the size of the stack. | length = len(stack) | O(1) |
-| empty() | Returns ```true``` if the length of the stack is zero. | if len(stack) == 0: | O(1) |
+| insert_head(x) | Adds _x_ before the head | my_deque.appendleft(x) | O(1) |
+| insert_tail(x) | Adds _x_ after the tail | my_deque.append(x) | O(1) |
+| insert(i, X) | Adds _x_ after node _i_.	my_deque.insert(i, value)	O(n) |
+remove_head()	Removes the first item (the head)	value = my_deque.popleft()	O(1)
+remove_tail(index)	Removes the last item (the tail)	value = my_deque.pop()	O(1)
+remove(i)	Removes node "i".	del my_deque[i]	O(n)
+size()	Return the size of the linked list	length = len(my_deque)	O(1)
+empty()	Returns true if the length of the linked list is zero.	if len(my_deque) == 0:	O(1)
 
 ## Example: line dividers or something
 put'em here man
