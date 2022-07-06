@@ -1,5 +1,13 @@
-## get some lists that are linked in here dude
+# Linked Lists
 c'mon man
+
+## Structure
+yessir
+
+## Basic Functions
+put'em here
+
+## Example: 
 
 [Welcome Page](0-welcome.md)
 
