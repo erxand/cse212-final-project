@@ -2,7 +2,11 @@
 If you already have an idea of how a list or array works then you shouldn't have a hard time understanding linked lists. A linked list is essentially a unique way to create a list, it has some drawbacks but definitely has some uses. Blockchain technology is a great example of a very advanced linked list.
 
 ## Structure
-You might think that you don't know what a stanchion is, but you would be wrong. You've seen them before, you've probably spent more time around them than you would've liked to. You know those wait-high crowd control pole things in airports and other places to help form lines? They have the stretchy fabric divider that stretches between each pole? Those are stanchions. Stanchions are actually a great example of linked lists.
+You might think that you don't know what a stanchion is, but you're wrong. You've seen them before, you've probably spent more time around them than you would've liked to. You know those wait-high crowd control pole things in airports and other places to help form lines? They have the fabric divider that stretches between each pole? Those are stanchions. Stanchions are actually a great example of linked lists. Each stanchion has a connector that takes you to the next one, there is one stanchion that is the first one, it doesn't have any other stanchions connecting to it, it just starts and leads to the second one. Each stanchion after the first or the "head" has a stanchion before it that points to it, and then it points to another stanchion. This continues to the last stanchion, which doesn't point to any more because it is the last, or the "tail".
+
+In a linked list we see the same format. A linked list is composed of nodes. Each node has two characteristics: its value and the address of the next node. To follow the example, a stanchion has itself: the pole, and the directions to the next stanchion: the cord between them. The first node is known as the head, and the last node is known as the tail. The tail doesn't contain directions to another node, it has a null value in that place.
+
+If we want to add a new value to the middle of a linked list we, say _x_ set _x_'s directions to the value following the spot you want _x_ in and you change the directions of its predecessor to point to _x_. If you wantto delete _x_ out of the linked list you simply change the directions of its predecessor to point to the value that follows _x_.
 
 ## Basic Functions
 | Stack Operation | Description | Python Code | O(?) |
