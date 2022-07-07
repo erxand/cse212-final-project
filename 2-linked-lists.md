@@ -1,8 +1,8 @@
 # Linked Lists
-c'mon man
+If you already have an idea of how a list or array works then you shouldn't have a hard time understanding linked lists. A linked list is essentially a unique way to create a list, it has some drawbacks but definitely has some uses. Blockchain technology is a great example of a very advanced linked list.
 
 ## Structure
-yessir
+You might think that you don't know what a stanchion is, but you would be wrong. You've seen them before, you've probably spent more time around them than you would've liked to. You know those wait-high crowd control pole things in airports and other places to help form lines? They have the stretchy fabric divider that stretches between each pole? Those are stanchions. Stanchions are actually a great example of linked lists.
 
 ## Basic Functions
 | Stack Operation | Description | Python Code | O(?) |
@@ -17,7 +17,7 @@ yessir
 | empty() | Returns true if the length of the linked list is zero. | if len(linked_list) == 0: | O(1) |
 
 ## Example: Stanchion
-You might think that you don't know what a stanchion is, but you would be wrong. You've seen them before, you've probably spent more time around them than you would've liked to. You know those wait-high crowd control pole things in airports and other places to help form lines? They have the stretchy fabric divider that stretches between each pole? Those are stanchions. Stanchions are actually a great example of linked lists.
+
 
 ## Problem: Geocaching Activity
 this may be problematic
