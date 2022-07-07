@@ -6,7 +6,7 @@ You might think that you don't know what a stanchion is, but you're wrong. You'v
 
 In a linked list we see the same format. A linked list is composed of nodes. Each node has two characteristics: its value and the address of the next node. To follow the example, a stanchion has itself: the pole, and the directions to the next stanchion: the cord between them. The first node is known as the head, and the last node is known as the tail. The tail doesn't contain directions to another node, it has a null value in that place.
 
-If we want to add a new value to the middle of a linked list we, say _x_ set _x_'s directions to the value following the spot you want _x_ in and you change the directions of its predecessor to point to _x_. If you wantto delete _x_ out of the linked list you simply change the directions of its predecessor to point to the value that follows _x_.
+If we want to add a new value to the middle of a linked list we, say _x_ set _x_'s directions to the value following the spot you want _x_ in and you change the directions of its predecessor to point to _x_. If you want to delete _x_ out of the linked list you simply change the directions of its predecessor to point to the value that follows _x_.
 
 ## Basic Functions
 | Stack Operation | Description | Python Code | O(?) |
