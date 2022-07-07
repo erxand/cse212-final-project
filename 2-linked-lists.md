@@ -16,8 +16,8 @@ yessir
 | size() | Return the size of the linked list | length = len(linked_list) | O(1) |
 | empty() | Returns true if the length of the linked list is zero. | if len(linked_list) == 0: | O(1) |
 
-## Example: line dividers or something
-put'em here man
+## Example: Stanchion
+You might think that you don't know what a stanchion is, but you would be wrong. You've seen them before, you've probably spent more time around them than you would've liked to. You know those wait-high crowd control pole things in airports and other places to help form lines? They have the stretchy fabric divider that stretches between each pole? Those are stanchions. Stanchions are actually a great example of linked lists.
 
 ## Problem: Geocaching Activity
 this may be problematic
