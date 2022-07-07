@@ -21,7 +21,10 @@ If we want to add a new value to the middle of a linked list we, say _x_ set _x_
 | empty() | Returns true if the length of the linked list is zero. | if len(linked_list) == 0: | O(1) |
 
 ## Example: Stanchion
-
+do the stuff dude
+```python
+print("stuff")
+```
 
 ## Problem: Geocaching Activity
 this may be problematic
