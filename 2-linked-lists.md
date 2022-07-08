@@ -54,7 +54,7 @@ print()
 If you want to run this exact program the file is [here](linked_lists_example.py), or just copy and paste this into your IDE.
 
 ## Problem: Geocaching Activity
-this may be problematic
+Please write a program to solve the following problem: You are a youth leader in your local ward. You made a geocaching activity, where the youth are given a set GPS coordinates on a piece of paper, that leads them to a container with another paper and set of coordinates. This continues through several sets of coordinates. Please write a program that creates a linked list that contains the following coordinates. Give it functionality to add nodes on the end, to insert nodes in the middle, and to remove nodes.
 
 ## Links
 [Welcome Page](0-welcome.md)
