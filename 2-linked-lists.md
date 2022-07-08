@@ -20,7 +20,7 @@ If we want to add a new value to the middle of a linked list we, say _x_ set _x_
 | size() | Return the size of the linked list | length = len(linked_list) | O(1) |
 | empty() | Returns true if the length of the linked list is zero. | if len(linked_list) == 0: | O(1) |
 
-## Example: Stanchion
+## Example: Stanchions
 Here we have a series of stanchions. We want to walk alongside the stanchions wherever they lead to and read the names on each stanchion. We would also like to put a stanchion in the middle of it all, and take some out along the way.
 ```python
 class Stanchion():
