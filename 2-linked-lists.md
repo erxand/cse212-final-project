@@ -21,10 +21,11 @@ If we want to add a new value to the middle of a linked list we, say _x_ set _x_
 | empty() | Returns true if the length of the linked list is zero. | if len(linked_list) == 0: | O(1) |
 
 ## Example: Stanchion
-do the stuff dude
+Here we have a series of stanchions. We want to walk alongside the stanchions wherever they lead to and read the names on each stanchion. We would also like to put a stanchion in the middle of it all, and take some out along the way.
 ```python
-print("stuff")
+print(linked_lists_example.py)
 ```
+If you want to run this exact program the file is [here](linked_lists_example.py), or just copy and paste this into your IDE.
 
 ## Problem: Geocaching Activity
 this may be problematic
