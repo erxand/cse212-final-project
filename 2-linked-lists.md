@@ -56,6 +56,12 @@ If you want to run this exact program the file is [here](linked_lists_example.py
 ## Problem: Geocaching Activity
 Please write a program to solve the following problem: You are a youth leader in your local ward. You made a geocaching activity, where the youth are given a set GPS coordinates on a piece of paper, that leads them to a container with another paper and set of coordinates. This continues through several sets of coordinates. Please write a program that creates a linked list that contains the following coordinates. Give it functionality to add nodes on the end, to insert nodes in the middle, and to remove nodes.
 
+Create a coordinate object that has a set of coordinates in a tuple and a pointer to the next coordinate object. They both serve essentially the same purpose in this activity, the pointer is doing what the coordinates would do in real life, but we're putting the coordinates in to keep track of order.
+
+Start the linked list with the coordinates at _x_.
+Add the coordinates _a_, _b_, and _c_ on the end.
+
+
 ## Links
 [Welcome Page](0-welcome.md)
 
