@@ -23,7 +23,33 @@ If we want to add a new value to the middle of a linked list we, say _x_ set _x_
 ## Example: Stanchion
 Here we have a series of stanchions. We want to walk alongside the stanchions wherever they lead to and read the names on each stanchion. We would also like to put a stanchion in the middle of it all, and take some out along the way.
 ```python
-print(linked_lists_example.py)
+class Stanchion():
+    def __init__(self, name, next=None):
+        self.name = name
+        self.next = next
+
+    def add_last_stanchion(self, name):
+        if self.next == None:
+            self.next = Stanchion(name)
+        else:
+            self.next.add_last_stanchion(name)
+
+    def read_following_names(self):
+        print(self.name, end=" ")
+        if self.next != None:
+            self.next.read_following_names()
+        else:
+            print()
+
+print()
+stanchion_head = Stanchion("1")
+stanchion_head.add_last_stanchion("2")
+stanchion_head.add_last_stanchion("3")
+stanchion_head.add_last_stanchion("4")
+stanchion_head.add_last_stanchion("5")
+stanchion_head.read_following_names()
+stanchion_head.next.next.read_following_names()
+print()
 ```
 If you want to run this exact program the file is [here](linked_lists_example.py), or just copy and paste this into your IDE.
 
