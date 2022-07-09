@@ -58,6 +58,7 @@ Please write a program to solve the following problem: You are a youth leader in
 
 Create a coordinate object that has a set of coordinates in a tuple and a pointer to the next coordinate object. Both data points serve essentially the same purpose in this activity, the pointer is doing what the coordinates would do in real life, but we're putting the coordinates in to keep track of order.
 
+#### Coordinates
 * Start the linked list with the coordinates at (43.814630, -111.784310).
 * Add the coordinates (40.249101, -111.650649); (21.641232, -157.927324); and (41.732061, -98.099521) on the end.
 * Add the coordinate (41.882511, -87.623312) after (40.249101, -111.650649) in the third position.
