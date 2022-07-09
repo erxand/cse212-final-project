@@ -54,16 +54,23 @@ print()
 If you want to run this exact program the file is [here](linked_lists_example.py), or just copy and paste the above code into your IDE.
 
 ## Problem: Geocaching Activity
-Please write a program to solve the following problem: You are a youth leader in your local ward. You made a geocaching activity, where the youth are given a set GPS coordinates on a piece of paper, that leads them to a container with another paper and set of coordinates. This continues through several sets of coordinates. Please write a program that creates a linked list that contains the following coordinates. Give it functionality to add nodes on the end, to insert nodes in the middle, and to remove nodes from the middle and end.
+Please write a program to solve the following problem: You are a youth leader in your local ward. You made a geocaching activity, where the youth are given a set GPS coordinates on a piece of paper, that leads them to a container with another paper and set of coordinates. This continues through several sets of coordinates. Please write a program that creates a linked list that contains the following coordinates. Give it functionality to add nodes on the end, to insert nodes in the middle, to remove nodes, and to print all the nodes.
 
 Create a coordinate object that has a set of coordinates in a tuple and a pointer to the next coordinate object. Both data points serve essentially the same purpose in this activity, the pointer is doing what the coordinates would do in real life, but we're putting the coordinates in to keep track of order.
 
-Start the linked list with the coordinates at 43.814630, -111.784310.
-Add the coordinates 40.249101, -111.650649; 21.641232, -157.927324; and 41.732061, -98.099521 on the end.
-Add the coordinate 41.882511, -87.623312 after 40.249101, -111.650649 in the third position.
-Add the coordinates 37.808942, -122.198965 and 39.919561, -92.785264 to the end.
-Remove the coordinates 41.732061, -98.099521 and 39.919561, -92.785264 from the linked list.
-You should end up with a list that goes 43.814630, -111.784310; 40.249101, -111.650649; 21.641232, -157.927324; 41.882511, -87.623312; 37.808942, -122.198965.
+Start the linked list with the coordinates at (43.814630, -111.784310).
+Add the coordinates (40.249101, -111.650649); (21.641232, -157.927324); and (41.732061, -98.099521) on the end.
+Add the coordinate (41.882511, -87.623312) after (40.249101, -111.650649) in the third position.
+Add the coordinates (37.808942, -122.198965) and (39.919561, -92.785264) to the end.
+Remove the coordinates (41.732061, -98.099521) and (39.919561, -92.785264) from the linked list.
+You should end up with:
+```python
+(43.814630, -111.784310)
+(40.249101, -111.650649)
+(21.641232, -157.927324)
+(41.882511, -87.623312)
+(37.808942, -122.198965)
+```
 
 Possible solution [here](linked_lists_problem_solution.py), only view this once you have completed the problem on your own or feel you cannot progress any further.
 
