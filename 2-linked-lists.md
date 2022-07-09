@@ -65,6 +65,8 @@ Add the coordinates _e_ and _f_ to the end.
 Remove the coordinates _c_ and _f_ from the linked list.
 You should end up with a list that goes _x_, _a_, _b_, _d_, _e_.
 
+Possible solution [here](linked_lists_problem_solution.py), only view this once you have completed the problem on your own or feel you cannot progress any further.
+
 ## Links
 [Welcome Page](0-welcome.md)
 
