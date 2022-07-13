@@ -7,8 +7,6 @@ A binary tree is essentially a two-dimensional upgraded linked list, instead of 
 Don't quite understand it yet? Check out this picture:
 ![1200px-Binary_search_tree svg](https://user-images.githubusercontent.com/97632407/178615031-1070645a-68d6-46e3-9543-7463422526be.png)
 
-put a source for the picture
-
 Let me give an example of searching through this tree. Say we're looking for the value 7. We start at the head, which is 8, and we ask whether 7 is less or more than the head. 7 is less so we go to the left. This takes us to the next node, which is 3. 7 is bigger than 3 so we go right. Now we're at 6, 7 is bigger so we go right again. This takes us to 7, that's what we were looking for! This took us 4 steps, we went 8, 3, 6, 7. If we were to search through a normal sorted list it would've taken 5 steps, going 1, 3, 4, 6, 7. The tree took 4 steps and the normal list took 5, you could argue that that's a negligible difference. However, this is the longest it will ever take us to search this tree. If we're looking for 13 it would also take us 4 steps with the tree, but we'd have to iterate through all 9 elements before we'd find it in a normal sorted list.
 
 Every time we double the size of the tree it only increases the search time by one step, but every time we double the size of a normal list it could double the search steps as well. See why binary trees are useful? They're pretty cool!
@@ -16,7 +14,7 @@ Every time we double the size of the tree it only increases the search time by o
 ## Basic Functions
 | Stack Operation | Description | Python Code | O(?) |
 | --- | --- | --- | --- |
-| insert(x) | Insert _x_ into the tree. | python | O(log n) |
+| insert(x) | Insert _x_ into the tree. |  | O(log n) |
 | remove(x) | Remove _x_ from the tree. | python | O(log n) |
 | contains(x) | Determine if _x_ is in the tree. | python | O(log n) |
 | traverse_forward | Iterate through all objects from smallest to largest. | python | O(n) |
