@@ -28,7 +28,7 @@ Let's imagine for a bit here. I haven't ever heard of a maze like this, but say 
 
 Here's some example code for searching the maze. If you want to see the code for populating the maze, check the link at the bottom.
 ```python
-
+print("put the code here")
 ```
 
 If you want to see the full program the file is [here](trees_example.py).
