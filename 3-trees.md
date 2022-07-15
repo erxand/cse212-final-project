@@ -44,7 +44,7 @@ def _contains(self, data, node):
 The full program file is [here](trees_example.py).
 
 ## Problem: Messing with People in an Organized Maze
-Say your maze here is a tourist attraction, after all it is a pretty unique way to organize your stuff. You like to mess with people. Make it so you can block off part of the maze so people can't find those items, and then open it back up just to confuse them. Using [this](trees_example.py) file (it's the same one used for the example above), add functionality to remove a branch starting at a certain value from the maze, and functionality to add a branch back in. Use the \_\_contains\_\_ function from the example to make sure you removed the item, then use that function again once you've added the item back to make sure it was successful.
+Say your maze here is a tourist attraction, after all it is a pretty unique way to organize your stuff. You like to mess with people. Make it so you can block off part of the maze so people can't find those items, and then open it back up just to confuse them. Using [this](trees_example.py) file (it's the same one used for the example above), add functionality to remove a branch starting at a certain value from the maze, and functionality to add a branch back in. Use the \_\_contains\_\_ function from the example to make sure you removed the item, then use that function again once you've added the item back to make sure it was successful. Hint: you might want to give the Maze class methods for adding and removing nodes instead of just data so you can keep everything after it.
 
 Once you feel you have either completed this problem or gotten too stuck, check [the solution](trees_problem_solution.py) and compare it with your own.
 
