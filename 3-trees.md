@@ -12,16 +12,16 @@ Let me give an example of searching through this tree. Say we're looking for the
 Every time we double the size of the tree it only increases the search time by one step, but every time we double the size of a normal list it could double the search steps as well. See why binary trees are useful? They're pretty cool!
 
 ## Basic Functions
-| Stack Operation | Description | Python Code | O(?) |
-| --- | --- | --- | --- |
-| insert(x) | Insert _x_ into the tree. |  | O(log n) |
-| remove(x) | Remove _x_ from the tree. | python | O(log n) |
-| contains(x) | Determine if _x_ is in the tree. | python | O(log n) |
-| traverse_forward | Iterate through all objects from smallest to largest. | python | O(n) |
-| traverse_reverse | Iterate through all objects from largest to smallest. | python | O(n) |
-| height(node) | Determine the height of a tree from the node. If the height of the tree is needed, provide the root node. | python | O(n) |
-| size() | Return the size of the tree. | python | O(1) |
-| empty() | Returns true if the root node is empty. This can also be done by checking the size for 0. | python | O(1) |
+| Stack Operation | Description | O(?) |
+| --- | --- | --- |
+| insert(x) | Insert _x_ into the tree. | O(log n) |
+| remove(x) | Remove _x_ from the tree. | O(log n) |
+| contains(x) | Determine if _x_ is in the tree. | O(log n) |
+| traverse_forward | Iterate through all objects from smallest to largest. | O(n) |
+| traverse_reverse | Iterate through all objects from largest to smallest. | O(n) |
+| height(node) | Determine the height of a tree from the node. If the height of the tree is needed, provide the root node. | O(n) |
+| size() | Return the size of the tree. | O(1) |
+| empty() | Returns true if the root node is empty. This can also be done by checking the size for 0. | O(1) |
 
 ## Example: idk man
 example here
