@@ -26,14 +26,14 @@ Every time we double the size of the tree it only increases the search time by o
 ## Example: Searhing an Organized Maze
 Let's imagine for a bit here. I haven't ever heard of a maze like this, but say we come to a maze where instead of there being one entrance and one exit, there is one entrance and lots of dead ends, but no exit. In each intersection and dead end there is a numbered item, with signs in the intersections saying what the next item is. If we were to walk through this maze in search of an item the signs would be very useful in helping us locate the item. Say we have items 1-100, and we're looking for item #42. The first intersection we come across is item #50, there is a sign pointing to the left to item #25 and a sign pointing to the right to item #75. We walk to the left, because we know that item #42 would be in the direction of item #25 instead of item #75. We would continue with that pattern and logic until we found item #42.
 
-Here's some example code for searching the maze. If you want to see the code for populating the maze, check the link at the bottom.
+Here's some example code for searching the maze. This is done by creating a native /__contains/__ function. If you want to see the code for populating the maze, check the link at the bottom.
 ```python
 print("put the code here")
 ```
 
 If you want to see the full program the file is [here](trees_example.py).
 
-## Problem: Modifying an Organized Maze
+## Problem: Messing with Peopl in an Organized Maze
 problem here
 
 ## Links
