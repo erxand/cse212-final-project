@@ -54,3 +54,4 @@ Once you feel you have either completed this problem or gotten too stuck, check 
 [Outline](outline.md)
 
 ## Beam Me Up!
+![me in a tree](https://user-images.githubusercontent.com/97632407/179285718-3fbd0c19-ef6b-41cd-ac45-c555362af961.jpg)
